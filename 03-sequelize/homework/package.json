@@ -1,0 +1,27 @@
+{
+  "name": "03-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon -e html,js,css app.js",
+    "test": "jest --detectOpenHandles",
+    "grade": "jest --useStderr --detectOpenHandles --json --outputFile=./test/result.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "nunjucks": "^3.2.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.18.0",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "supertest": "^6.2.2"
+  }
+}
